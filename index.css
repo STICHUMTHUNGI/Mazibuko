@@ -1,66 +1,529 @@
-html, body, header,#intro {
-  font-family: 'Germania One', cursive;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing:
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.play {
+  display: flex;
+  padding-top: 190px;
+  padding-left: 340px;
+}
+
+.play h3 {
+  padding-top: 23px;
+  font-size: 29px;
+  text-decoration: underline solid rgb(110, 220, 163);
+  font-weight: 800;
+}
+
+.play img {
+  padding-top: 19px;
+  padding-right: 20px;
+}
+
+header {
+  background-image: url("analyzing-people-3441040_1280.jpg");
+  background-size: cover;
+  height: 1100px;
+}
+
+header h1 {
   font-size: 23px;
-  height: 100%;
-
-  scroll-behavior: smooth;
+  font-weight: bolder;
 }
-#intro{
-  background-image: url("https://images.wallpaperscraft.com/image/munich_germany_allianz_arena_stadium_81232_1280x720.jpg");
-  -webkit-background-size: cover;
+
+.welcome {
+  color: white;
+  text-align: center;
+  padding-top: 360px;
+}
+
+.welcome h1 {
+  font-size: 134px;
+  font-weight: bolder;
+}
+
+.welcome p {
+  font-size: 38px;
+  padding-bottom: 33px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav {
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+}
+
+.right-nav {
+  background-color: rgb(110, 220, 163);
+  width: 50%;
+}
+
+.fa {
+  float: right;
+  font-size: 23px;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.left {
+  width: 51%;
+  color: white;
+  background-color: rgb(110, 220, 163);
+  height: 400px;
+  text-align: left;
+}
+
+.eza h3 {
+  padding-left: 160px;
+}
+
+.er {
+  padding-top: 39px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.eza p {
+  font-size: 20px;
+  padding-left: 159px;
+  text-align: left;
+}
+
+.t {
+  background-color: black;
+}
+
+.eza .numbers {
+  padding-top: 40px;
+  font-size: 143px;
+  padding-left: 163px;
+  text-align: right;
+}
+
+.numbers h6 {
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.hp {
+  font-size: 15px;
+  text-align: left;
+  padding-right: 23px;
+}
+
+.e {
+  color: #5438DC;
+  font-size: 52px;
+  padding-right: 23px;
+}
+
+.center {
+  width: 27%;
+  color: black;
+  background-color: white;
+  height: 400px;
+  text-align: left;
+
+}
+
+.es {
+  font-weight: bolder;
+  font-size: 27px;
+
+}
+
+.center p {
+  padding-top: 34px;
+  padding-left: 34px;
+}
+
+.right {
+  width: 24%;
+  color: green;
+  background-image: url("ba (1) 2.jpg");
   background-size: cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
+  height: 400px;
+}
 
-width:100%
+.right h6 {
+  font-size: 21px;
+  padding-top: 160px;
+  color: rgb(110, 220, 163);
+  padding-left: 60px;
 }
-.mask{
-  padding-top: 180px;
-}
-.navbar{
-  opacity: 0.5;
-}
-#about{
-  background-image: url("https://images.wallpaperscraft.com/image/windows_logo_texture_111944_300x168.jpg");
-  -webkit-background-size: cover;
-  background-size: cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
 
-width:100%
+.right h2 {
+  text-decoration: underline;
+  color: white;
+  font-size: 61px;
+  text-align: center;
+  padding-left: 70px;
+  padding-bottom: 100px;
 }
-#contact  form .form-group .form-control{
-  border: none;
-  border-bottom: 1px solid black;
+
+hr {
+  opacity: 0;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 67%;
+  padding-left: 125px;
+}
+
+button {
+  font-size: 30px;
+  background-color: #5438DC;
+  color: white;
+margin-left: 34px;
+margin-top: 10%;
+}
+
+.three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.bicycle {
+  width: 25%;
+  color: yellow;
+  height: 400px;
+  background-image: url("article-1296644-0A7F8CDE000005DC-524_468x434 2.jpg");
+}
+
+.skills {
   width: 70%;
-
-}
-form{
-  width:
-}
-#services{
-  background-image: url("https://images.wallpaperscraft.com/image/city_aerial_view_sunset_137753_1280x720.jpg");
-  -webkit-background-size: cover;
-  background-size: cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  height: 100%;
-  width: 100%;
+  color: black;
+  background-color: white;
+  height: 400px;
+  text-align: left;
+  padding-left: 80px;
 }
 
-#myVideo {
-  position: static;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+.man {
+  width: 50%;
+  height: 400px;
 }
 
-/* Make the image fully responsive */
-  .carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
-  h2{
-    text-align: center;
-  }
+.skills h4 {
+  text-decoration: underline;
+  text-decoration-color: rgb(110, 220, 163);
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.or {
+  font-size: 39px;
+  text-decoration: underline;
+  text-decoration-color: rgb(110, 220, 163);
+  padding-top: 60px;
+  color: #5438DC;
+  font-weight: bolder;
+}
+
+.skills p {
+  padding-top: 30px;
+}
+
+.ev {
+  padding-right: 43px;
+}
+
+.si {
+  padding-right: 112px;
+}
+
+.ma {
+  padding-right: 103px;
+}
+
+.west {
+  width: 180px;
+  border-radius: 99px;
+  padding-top: 23px;
+}
+
+.four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.purp {
+  width: 25%;
+  background-color: #5438DC;
+  height: 400px;
+  text-align: center;
+}
+
+.purp p {
+  font-size: 16px;
+  padding-top: 80px;
+
+}
+
+.gla {
+  width: 25%;
+}
+
+.la {
+  width: 25%;
+  background-color: rgb(110, 220, 163);
+  height: 400px;
+  text-align: left;
+}
+
+.la h1 {
+  font-size: 34px;
+  padding-top: 70px;
+  padding-left: 39px;
+
+
+}
+
+.la p {
+  font-size: 19px;
+  padding-top: 40px;
+padding-left: 39px;
+}
+
+.camera {
+  width: 25%;
+}
+
+.contact {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.information {
+  width: 50%;
+  height: 400px;
+  background-image: url("1.jpg");
+}
+
+.information h1 {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+.information h3 {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.we {
+  color: #6153CC;
+}
+
+.information h2 {
+  padding-left: 20px;
+  padding-top: 60px;
+  font-size: 20px;
+}
+
+.wet {
+  text-decoration: underline;
+  text-decoration-color: #44FFD1;
+  color: #44FFD1;
+  font-weight: bolder;
+}
+.wets{
+  text-decoration: underline;
+
+  text-decoration-color: #44FFD1;
+  font-weight: bolder;
+}
+
+.information i {
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+.cc {
+  width: 50%;
+  background-color: #5438DC;
+  height: 400px;
+  text-align: center;
+}
+
+.cc h6 {
+  color: white;
+  font-size: 15px;
+
+  padding-top: 100px;
+}
+
+.cc h1 {
+  color: white;
+  font-size: 36px;
+
+  padding-top: 40px;
+}
+
+.final {
+  justify-content: space-between;
+  display: flex;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.f {
+  width: 45%;
+  padding-left: 43px;
+  padding-top: 14px;
+}
+
+.f h1 {
+  font-weight: bolder;
+  font-size: 34px;
+}
+
+.f li {
+  list-style: none;
+  padding-top: 14px;
+}
+
+.f i {
+  padding-left: 20px;
+  padding-top: 34px;
+  color: white;
+}
+
+.hand {
+  width: 15%;
+  padding-top: 14px;
+}
+
+.hand h3 {
+  padding-top: 37px;
+}
+
+.most {
+  width: 15%;
+  padding-top: 14px;
+}
+
+.most h3 {
+  padding-top: 37px;
+}
+
+.home {
+  width: 15%;
+  padding-top: 14px;
+}
+
+.home h3 {
+  padding-top: 37px;
+}
+
+.documentaion {
+  width: 15%;
+  padding-top: 14px;
+}
+
+.documentaion h3 {
+  padding-top: 37px;
+}
+
+footer {
+  background-color: rgb(33, 33, 33);
+  font-size: 15px;
+  color: white;
+  padding-left: 60px;
+  padding-bottom: 27px;
+  padding-top: 27px;
+}
+.arrow {
+ position: relative;
+}
+.arrow {
+ position: absolute;
+}
+.arrow, #saa{
+   top: 256%;
+   right: 75%;
+}
+.w {
+  position: relative;
+}
+.w {
+  position: absolute;
+}
+.w, #see {
+  top: 257%;
+
+}
